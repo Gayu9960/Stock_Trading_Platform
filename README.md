@@ -1,33 +1,41 @@
-Stock Trading Project
-Overview
+💹 Stock Trading Application
 
-A beginner-friendly Stock Trading Application to track and analyze stock prices. Users can simulate buying and selling stocks and view portfolio performance.
+A simple and interactive Stock Trading Application built using HTML, CSS, JavaScript, and Python/Node.js.
+This project allows users to simulate buying and selling stocks, track portfolio performance, and analyze stock trends in the browser.
 
-Features
 
-Track real-time stock prices
+🚀 Technologies Used
 
-Simulate buy/sell actions
+HTML
 
-Portfolio tracking
+CSS
 
-Charts and graphs for stock trends
+JavaScript
 
-Technologies
+Python (Flask) / Node.js
 
-Frontend: HTML, CSS, JavaScript
+SQLite / MySQL (for storing user data)
 
-Backend: Python (Flask) or Node.js
+Chart.js / Pandas / Matplotlib (for data visualization)
 
-Database: SQLite / MySQL
+✨ Features
 
-APIs: Yahoo Finance / Alpha Vantage
+Users can view real-time stock prices
 
-Installation
+Simulate buying and selling stocks
 
-Clone the repo:
+Track portfolio value
 
-git clone https://github.com/Gayu9960/stocktrading.git
+Visualize stock trends with charts and graphs
+
+
+▶️ How to Run the Project
+
+Download or clone this repository
+
+git clone https://github.com/Gayu9960/Stock_Trading_Platform
+
+Open the project folder
 
 Install dependencies:
 
@@ -35,17 +43,38 @@ pip install -r requirements.txt  # Python
 # or
 npm install                       # Node.js
 
-Run the app:
+Run the application:
 
 python app.py  # Python
 # or
 node app.js    # Node.js
 
-Open http://localhost:5000 in your browser.
+Open your browser at http://localhost:5000 (or your configured port)
 
-Author
+Start exploring and simulating stock trading!
 
-Gayatri Nagesh Deshmukh
-Computer Engineering Student
-GitHub: [your-github-link]
+📂 Project Structure
 
+stock-trading/
+│── index.html
+│── style.css
+│── script.js
+│── app.py / app.js
+│── database.db (if using SQLite)
+│── README.md
+│── screenshots/
+
+🌟 Future Improvements
+
+Add real-time notifications for stock price changes
+
+Implement AI-based trading recommendations
+
+Enable historical data analysis and reporting
+
+Improve UI design and charts
+
+👩‍💻 Author
+
+Gayatri Deshmukh
+Aspiring Web Developer 🚀
